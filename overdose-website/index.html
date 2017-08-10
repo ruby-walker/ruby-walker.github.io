@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cocktails That Kill</title>
+	<link href="dist/css/bootstrap.css" rel="stylesheet">
+    <link href="dist/css/main.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Stardos+Stencil" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        </head>
+  </head>
+
+  <body background="dist/css/background.jpg">
+		<a href="index.html"><span class="customh1" text-align="center"><h1>Cocktails That Kill:</h1></span></a>
+		<h2>Lethal Drug Combinations in Allegheny County</h2>
+    <h5>One of the most common misconceptions about the overdose epidemic is the assumption that people are overdosing by taking just one drug. In reality, just 89 of Allegheny County's 738 lethal overdoses - 12 percent - were attributed to a single substance. Many of these deaths could have been prevented with harm reduction education or regulations designed to eliminate undisclosed cutting agents.</h5>
+    <h5>In just one year, more than 50 unique substances - overwhelmingly perscription drugs - contributed to overdose deaths in the county. These drugs include...</h5>
+    <div class="container" style="text-align: center; align: auto">
+        <table class="table">
+        <tbody>
+        <tr>
+        <td>
+          <p>Acetaminophen</p>
+          <p>Alcohol</p>
+          <p>Alprazolam</p>
+          <p>Amitriptyline</p>
+          <p>Benzodiazepines</p>
+          <p>Buprenorphine</p>
+          <p>Bupropion</p>
+          <p>Butylone</p>
+          <p>Carisoprodol</p>
+          <p>Chlorpromazine</p>
+          <p>Citalopram</p>
+          <p>Clonazepam</p>
+              </td>
+
+        <td>
+
+          <p>Cocaine</p>
+          <p>Codeine</p>
+          <p>Cyclobenzaprine</p>
+          <p>Dextromethorphan</p>
+          <p>Diazepam</p>
+          <p>Diphenhydramine</p>
+          <p>Doxepin</p>
+          <p>Etizolam</p>
+          <p>Escitalopram</p>
+          <p>Fentanyl</p>
+          <p>Fluoxetine</p>
+          <p>Gabapentin</p>
+        </td>
+
+        <td>
+          <p>Heroin</p>
+          <p>Hydrocodone</p>
+          <p>Hydromorphone</p>
+          <p>Hydroxyzine</p>
+          <p>Lamotrigine</p>
+          <p>Lorazepam</p>
+          <p>Meprobamate</p>
+          <p>Methadone</p>
+          <p>Methamphetamine</p>
+          <p>Midazolam</p>
+          <p>Mirtazapine</p>
+          <p>Morphine</p>
+      </td>
+      <td>
+
+        <p>Nordiazepam</p>
+        <p>Oxazepam</p>
+        <p>Oxycodone</p>
+        <p>Oxymorphone</p>
+        <p>Phentermine</p>
+        <p>Phenytoin</p>
+        <p>Quetiapine</p>
+        <p>Temazepam</p>
+        <p>Tramadol</p>
+        <p>Trazodone</p>
+        <p>U-47700</p>
+        <p>Venlafaxine</p>
+    </td>
+        </tr>
+        </tbody>
+      </table></div>
+      <h5>This project explores five of the most deadly drugs in the county - alcohol, cocaine, alprazolam (xanax), heroin, and fentanyl - to see which other drugs to those deaths. We've created a series of visualizations to examine three major questions: How many drugs were combined? Which drugs were combined? When were they combined?</h5>
+    <span class="container"><h3>Select a primary drug to begin:</h3></span>
+    <nav>
+        <a href="alcohol.html">Alcohol</a>
+        <a href="cocaine.html">Cocaine</a>
+        <a href="xanax.html">Xanax</a>
+        <a href="heroin.html">Heroin</a>
+        <a href="fentanyl.html">Fentanyl</a>
+    </nav></span>
+    <h5> </h5>
+    <h3>Artist Statements</h3>
+    <h2>Angelica Walker</h2>
+    <h5>As a group, we quickly agreed that we wanted to choose a topic centered around Pittsburgh. I suggested a <a href=”https://data.wprdc.org/dataset/allegheny-county-fatal-accidental-overdoses/resource/386ca0ed-717d-46d3-8ed2-da37553ec6d1”>dataset</a> from the Western Pennsylvania Regional Data Center website that lists out all the fatal drug overdoses in Allegheny County. This dataset contained data for all 424 closed cases of 2016 drug overdoses. Each case included the date, time, drugs used, age of the user, sex of the user, and zip code of the user as well as zip code of the death.</h5>
+    <h5>Because there was so much data, we spent a long time deciding exactly what we wanted to visualize. While we were trying to figure out what to do, Cindy asked why there were multiple drugs listed next to the same person. The rest of the group members admitted they were also confused. I explained to them that most people overdose by taking a combination they don’t usually take, or taking drugs secretly tainted with other drugs. This confusion was what led me to focus in on combinations. </h5>
+    <h5>The first thing I did for the project was edit my Python script from Synthesis 2 to calculate things for this project. I created two different programs: <a href=”https://github.com/sickandhungry/overdose-data/blob/master/od_counter.py”>od_counter.py</a> to count the number of drugs combined for overdoses in each of the five major categories (alcohol, cocaine, xanax, heroin, and fentanyl) and <a href=”https://github.com/sickandhungry/overdose-data/blob/master/combo_counter.py”>combo_counter.py</a> to count the number of times any given drug was used in an overdose.</h5>
+    <h5>The next thing I did was design the website. We worked as a group to write up some introduction text, draw up a mockup of what we wanted the website to look like, choose colors for the graphs and the website, and decide where we wanted each graph to go. We decided that creating buttons for each of the five major drugs would be a good source of interactivity. </h5>
+    <h5>Again, I leveraged resources from my old projects as a backbone for the new website. I also used a button rollover effect that I found at the beginning of the semester on Github, but never had the opportunity to use until now. Lastly, after trying out all the normal websafe fonts and not getting the result I wanted, I looked into other options and found the <a href=”https://fonts.google.com/”>Google Fonts API</a>. I found a cool font called <a href=”https://fonts.google.com/specimen/Stardos+Stencil”>Stardos Stencil</a> and put it in the CSS for body, so it would automatically appear in every section of the website.</h5>
+    <h5>The hardest part of this project for me was creating the actual pie chart. I originally wanted to somehow showcase the drugs that went into each individual case, but couldn’t think of any chart that would do that. I began trying to make a simple pie chart in Matplotlib, but couldn’t figure out how to upload CSV data files to the Python code. Since all of my other datasets were so small, I didn’t know how to interact with such a large dataset. </h5>
+    <h5>I asked my group members for help, and they suggested trying <a href=”https://plot.ly/”>Plot.ly</a>. This proved to work much better for our purposes, and I was able to quickly create each of the graphs and paste the code into our website.</h5>
+    <h5>I was really happy with how we communicated and worked together as a team. Group projects are usually something I fear, but everything about this project went smoothly. I feel like each of us contributed to the best of our abilities and brought something unique to the table, and this led to a final project that each of us can be proud of.</h5>
+
+    <h2>Srutha Komaravolu</h2>
+    <h5>The project at hand was to come up with a website using a data set that your team had decided on and create an interactive website through this. Initially, I was scared knowing that group projects can be difficult upon agreeing on a topic and the layout of the website, but we all were able to come to a conclusion together on what the website should be. The first day we got together and decided on using a drug overdose data set that Ruby had found. I was confused at first on how we could take so much data and create a site with it, but through the help of my team members I was able to understand the point we were trying to portray in the site.</h5>
+    <h5>We separated the data we found based on the most common drugs that were being used in combination or alone. It is interesting to see how these drugs have affected so many people in the Pittsburgh area. Though the data was a lot we were able to pinpoint the important factors that came out of the data. We all worked together to come up with a design of the website and color scheme that would work. I, personally, am not the strongest when it comes to building graphs without using d3 which I have used on all my past websites. Learning from my group members helped a lot with creating my own graphs. Cindy helped a lot in explaining to me how to use plot.ly to come up with my data charts in the site. This technique made it easier to take all the data and make color coded graphs that would help make the site readable.</h5>
+    <h5>Also, we came up with descriptions and text for the site to help explain the reasoning behind decisions that were made with each drug. Spotting these differences and having graphs that easily showed the numbers made the charts pop compared to the background of the site. Working together as a group, we distributed who was making which graph amongst us. Cindy and I worked together to make graphs showing the number of drugs combined with each and she helped show me how to place the graph from plot.ly into the site. We used Google Docs to help work together and place all of our html that we had created in order for one person to work on the site through Github. When we met together on the workshop day we all agreed to put the site together in order for everyone to get an opinion on what they wanted to portray in the site.</h5>
+    <h5>Overall, though group projects can be difficult because of conflicting opinions, everyone was able to get a piece of the website that they wanted to contribute to in the end. I am not the best at understanding other types of coding quickly, so learning how to use plot.ly has been beneficial through this website. </h5>
+
+    <h2>Katie Osborne</h2>
+    <h5>For this assignment, we decided we wanted to focus on something local and important, so we took a look at some of the public datasets available for Allegheny County to see what piqued our interest. After some discussion, we decided to analyze overdose data from 2016 to understand a bit more about drug overdoses that affect our area. What we found most interesting was the fact that the majority of overdose deaths were due to a combination of drugs as opposed to just one drug, which is something that I hadn’t really thought about at all before this project. </h5>
+    <h5>The majority of overdose deaths were due to alcohol, cocaine, Xanax, heroin, and fentanyl in combination with one or more other drugs taken at the same time. Because there are so many drugs used in combination with these main five, we decided to make a few different charts to visualize drug usage among these overdose deaths.</h5>
+    <h5>As someone who hasn’t really had any interaction with drug use or overdoses before, I think being able to look at the different drugs used and understand the different cocktails that led to so many deaths is really important. With so much content to analyze, we really had to think about the best way to visualize the data. We ended up decided to make a pie chart showing the drugs used in combination with each the main five drugs so that it was easy to see which combinations were most common for each category. To further illustrate the use of multiple drugs among overdose victims, we also made bar charts showing how many drugs were used per death. We wanted to make sure that what we created would be easy to understand for someone who doesn’t know much about drug overdoses, and I think we achieved this goal.</h5>
+    <h5>Beyond just looking at the combination of drugs though, I also wanted to look at when the deaths were occurring. Our dataset included the date of death so I took the data and split it up by drug to create graphs over time showing overdoses on that drug (whether in combination or on its own). The data that we had for 2016 didn’t include many closed cases for December so the charts I made show the deaths for each of the five main drugs per month from January through November. To make my charts, I used Plotly, which I’ve never actually used before but that proved to be a pretty cool program that helped us create charts that are pretty and understandable. At first, I was using matplotlib and Python script to create the graphs, but my group members suggested I try the Plotly application and that made it much easier to create our visualizations.</h5>
+    <h5>What I found when I put the data into a graph was that there were a lot more overdoses during the warmer months, particularly in August, and fewer overdoses in the cold, winter months. I was at first surprised by this outcome because I expected deaths to be more frequent during the winter as people tend to be more depressed and unhappy during those months and may therefore be more likely to “dope up”. However, it actually makes a lot of sense that warmer months would have more overdoses because when it’s warm outside, people are more likely to get out of the house and go to parties and hang out with friends which is often the site of these tragic, accidental deaths. As a team, we were each able to take an aspect of this dataset and create visualizations that, when put together, illustrate the realities of drug abuse more clearly and highlight how important a topic it is to be aware of.</h5>
+
+    <h2>Binh (Cindy) Lam </h2>
+    <h5>I was really anxious of what our group project will be like and I thought it would take us a long time to decide since none of us have a shared specific area of interest, except Ruby who has expressed her curiosity and interest in drugs. As a result, we all decided to work on a dataset of fatal combination of drugs that Ruby found. Ruby is the coder in our group and she used her past project python code to calculate the number of drugs combined and to separate them into sections that are easier to comprehend. I was really amazed about this and Ruby also share and show her codes to us. I and the rest of the group members definitely have learned from Ruby. </h5>
+    <h5>Ruby then created the website template and the rest of the group helps to add graphs, texts, and bottoms to the rest of the contents. The use of red letters portray a sense of danger, bloody, or warning of something serious. The interactive bottoms are created by Katie and it works perfectly for our page. Katie also works on the data on finding out when the death of those who had fatal combination of drugs and its visualization. </h5>
+    <h5>Srutha and I are both working on the data that Ruby provided us from the python results. We were working on how the number of drugs combined within each overdose. We used Plot.ly bar chart to display the results and we also changed different colors for different drugs bar charts. Srutha was a little uncertain about the use of Plot.ly, but after I have guided her a little, she was able to work on them in a faster pace than I did. Besides that, we were able to help Ruby out and suggested her to use the Plot.ly pie chart which is easier and less time-consuming. I was able to find the concatenate function on Excel to combine the overdose, its class, as well as its brand in the dataset provided by Ruby. </h5>
+    <h5>In general, I would say this was a really unexpected great group experience I have ever had. Everyone knows each other and would like to help each other. Most importantly, we learn from each other and share our difficulties and challenges that we encounter along the way. I would also like to say especially thank you to Ruby in guiding the whole group through the project. It has been a great learning experience to all of us. </h5>
+
+
+  </div></div></div>
+
+  <span class="container"><h4>© <a href="https://github.com/sickandhungry/">Angelica Ruby Walker</a>, <a href="https://github.com/ngl4">Cindy Lam</a>, <a href="https://github.com/skomaravolu"> Srutha Komaravolu</a>, and <a href="https://github.com/kao43">Katelyn Osborne</a> 2017</h4>
+        <h4>Created for <a href="https://github.com/mjlavin80">Matthew Lavin</a>'s Advanced Composing Digital Media course at the <a href="http://www.pitt.edu">University of Pittsburgh</a>.</h4></span>
+       </div>
+	</div>
+</div>
+  </body>
+</html>
