@@ -47,9 +47,9 @@ a:hover{
 .jumbotron{
 	margin-top: 25px;
 	background-color: #D35400;
-	width: 90%;
 	    margin-left: auto;
     margin-right: auto;
+	justify-content: center 
 }
 
 .customh1{
