@@ -14,8 +14,8 @@ table{
 	padding: 15px;
 	border: 2px solid white;
 			text-align: center;
-	 margin-left: auto;
-    margin-right: auto;
+	margin-right: -50%;
+        transform: translate(-50%, -50%)
 
 }
 
