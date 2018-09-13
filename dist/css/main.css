@@ -45,11 +45,12 @@ a:hover{
 }
 
 .jumbotron{
-	margin-top: 25px;
+	margin-top: 10px;
 	background-color: #D35400;
 	    margin-left: auto;
     margin-right: auto;
-	justify-content: center 
+	justify-content: center;
+		text-align: center;
 }
 
 .customh1{
