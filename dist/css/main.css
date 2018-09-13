@@ -103,10 +103,11 @@ a:hover{
 
 h2{
 	color: white;
-	margin-top: 15px;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 	text-align: center;
-	font-size: 10px;
+	font-size: 25px;
+		font-weight: bold;
+
 
 }
 
