@@ -228,7 +228,7 @@ p{
 
 .column {
     float: left;
-    width: 30%;
+    width: 50%;
 
 }
 
@@ -237,4 +237,6 @@ p{
     content: "";
     display: table;
     clear: both;
+	Width: 30%;
+	
 }
