@@ -1,12 +1,16 @@
 
+*{
+  font-family: 'Roboto', sans-serif;
+}
+
 table{
 	background-color: #900C3F;
 	color: white;
 }
 
 .container{
-	margin-top: 20px;
-	margin-bottom: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
 .container2{
@@ -15,14 +19,49 @@ align-items: center;
 
 }
 
+img{
+    border: 5px solid black;
+}
+
 .textbox{
 	background-color: #900C3F;
 	border-radius: 	10px;
-	padding: 15px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 150px;
+	padding-right: 150px;
+
 	border: 2px solid white;
 	text-align: center;
 	    margin-right: 0%;
     transform: translate(0%, 0%);
+         position: relative;
+     display: inline-block;
+}
+
+.textbox2{
+	background-color: #900C3F;
+	border-radius: 	10px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 70px;
+	padding-right: 70px;
+
+	border: 2px solid white;
+	text-align: center;
+	    margin-right: 0%;
+    transform: translate(0%, 0%);
+         position: relative;
+     display: inline-block;
+     
+  margin-bottom: 10px;
+  margin-left:50px;
+  margin-right:50px;
+}
+
+
+.textbox:hover{
+  	background-color:CRIMSON;
 }
 
 h1{
@@ -51,7 +90,7 @@ a:hover{
 }
 
 .jumbotron{
-	margin-top: 10px;
+	margin-top: 15px;
 	background-color: #D35400;
 	    margin-left: auto;
     margin-right: auto;
@@ -122,25 +161,30 @@ h2{
 	font-size: 30px;
 		font-weight: bold;
 
-
 }
 
 
 h3{
-	font-weight:bold;
 	color: white;
-	margin-top: 15px;
-	margin-bottom: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 	text-align: center;
 	font-size: 18px;
+	line-height: 18px;
+	word-spacing: 2px;
+	font-weight: bold;
+
 }
+
 
 h4{
 	color: white;
 	margin-top: 15px;
 	margin-bottom: 20px;
-	text-align: center;
+	text-align: justify;
 	font-size: 15px;
+	
+	line-height: 18px;
 }
 
 h5{
@@ -160,22 +204,36 @@ p{
 	font-size: 20px;
 }
 
-nav a{
-    position: relative;
-    display: inline-block;
-}
-
-nav a::before{
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 0;
-    height: 100%;
-    opacity: 0.5;
-    background: orangered;
-    transition: width .5s;
-}
-
-nav a:hover::before{
+ nav a{
+     position: relative;
+     display: inline-block;
+ }
+ 
+ nav a::before{
+     content: "";
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 0;
+     height: 100%;
+     opacity: 0.5;
+     background: orangered;
+     transition: width .5s;
+ }
+ 
+ nav a:hover::before{
     width:  100%;
+}
+
+.column {
+    float: left;
+    width: 50%;
+
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
