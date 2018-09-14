@@ -229,7 +229,7 @@ p{
 }
 
 .column {
-    flat: left;
+    float: left;
     width: 40%;
 
 }
