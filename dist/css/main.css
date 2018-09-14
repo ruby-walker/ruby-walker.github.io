@@ -34,7 +34,9 @@ img{
 
 	border: 2px solid white;
 	text-align: center;
-	    margin-right: 0%;
+	    margin-right: 5%; 
+	margin-left:5%;
+	
     transform: translate(0%, 0%);
          position: relative;
      display: inline-block;
