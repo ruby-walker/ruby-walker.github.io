@@ -1,270 +1,573 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Ruby Walker, LSW</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/main.css">
-  </head>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ruby Walker, LSW</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" />
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/main.css" />
+</head>
 
 <body>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
+
+  <script src="js/bootstrap.min.js"></script>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <a class="navbar-brand" href="index.html">Ruby Walker, LSW</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+      aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarText">
       <ul class="navbar-nav mr-auto">
-        <li class="nav-item ">
+        <li class="nav-item">
           <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="blog.html" >Blog</a>
+          <a class="nav-link" href="blog.html">Blog</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="resume.html">Resume</a>
         </li>
-                <li class="nav-item active">
-                  <a class="nav-link" href="experience.html">Extended CV<span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="research.html">Research</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html#getstarted">Contact</a>
-                  </li>
-                <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Links
-      </a>
-    </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="experience.html">Extended CV<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="research.html">Research</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="index.html#getstarted">Contact</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">Links</a>
+        </li>
       </ul>
-
-      </ul>
-
-      <span class="navbar-text">
-        <a class="nav-link" href="mailto:avw7@pitt.edu">avw7@pitt.edu</a>
-      </span>
+      <span class="navbar-text"><a class="nav-link" href="mailto:avw7@pitt.edu">avw7@pitt.edu</a></span>
     </div>
   </nav>
-
   <div class="container">
-    <u><i><h3 style="font-size: 1.6em; margin-top: 25px; margin-bottom: 1em">Summary of Experience</h3></i></u>
-
-  <b><h3 style="font-size:1em; margin-top:.5em; margin-bottom:1em"><a href="#education">Education</a> ~ <a href="#work">Work Experience</a> ~ <a href="#volunteer">Volunteer Experience</a> ~ <a href="#organizations">Organizations</a> ~ <a href="#distinctions">Distinctions</a></h3></b>
-
-<a id="education"><div class="box">
-  <h3 style="font-size: 1.4em; margin-top: 25px; margin-bottom: 1em">Education</h3></a>
-<div class="container">
-  <b><p style="font-size:1.18em; margin-top:1.2em; margin-bottom:.4em">Master’s in Social Work, 3.9 GPA, University of Pittsburgh</p></b>
-  <p style=" font-size:1em; margin-bottom: .1em">Certificate in Integrated Behavioral Health</p>
-  <p style=" font-size:1em; margin-bottom: .1em">Certificate in Gender, Sexuality, and Women's Studies, 3.9 GPA</p>
-<p style=" font-size:1em; margin-bottom: .1em">August 2018 – December 2019</p>
-
-  <b><p style="font-size:1.18em; margin-top:1.2em; margin-bottom:.4em">Bachelor’s in Social Work, 3.8 GPA, University of Pittsburgh</p></b>
-  <p style=" font-size:1em; margin-bottom: .1em">Minor in Legal Studies</p>
-  <p style=" font-size:1em; margin-bottom: .1em">Minor in Political Science</p>
-  <p style=" font-size:1em; margin-bottom: .1em">Certificate in Nonprofit Management</p>
-<p style=" font-size:1em; margin-bottom: .1em">Certificate in Public and Professional Writing</p>
-<p style=" font-size:1em; margin-bottom: 1.2em">August 2014 – April 2018</p>
-
-  </div></div>
-
-<a id="work">   <div class="box">
-  <h3 style="font-size: 1.4em; margin-top: 25px; margin-bottom: 1em">Work Experience</h3></a>
-<div class="container">
-  <b><p style="font-size:1.18em; margin-top:1.2em; margin-bottom:.4em">UPMC Western Psychiatric Hospital</p></b>
-  <p style=" font-size:1em; margin-bottom: .5em">Crisis Clinician</p>
-  <p style=" font-size:1em; margin-bottom: .5em">Pittsburgh, Pennsylvania</p>
-  <p style=" font-size:1em; margin-bottom: .5em">Februrary 2020 - Present</p>
-  <ul>
-    <li>Stabilized consumers & family during crisis situations including active suicidal / homicidal ideation</li>
-    <li>Utilized motivational interviewing, CBT, and DBT techniques to improve resilience in consumers </li>
-    <li>Conducted safety assessments via home/facility visits, phone calls, and telehealth video</li>
-    <li>Completed 302 involuntary commitment petitions and coordinated with police</li>
-    <li>Supervised and evaluated consumers in the onsite Crisis Residential walk-in center</li>
-    <li>Referred consumers to D&A, outpatient, and residential treatments across Allegheny County</li>
-    <li>Completed in-depth documentation including safety assessments in Epic and PsychConsult</li>
-  </ul>
-
-
-<b><p style="font-size:1.18em; margin-top:1.2em; margin-bottom:.4em">UPMC Health Plan</p></b>
-<p style=" font-size:1em; margin-bottom: .5em">Special Needs Program SMI Care Management Intern</p>
-<p style=" font-size:1em; margin-bottom: .5em">Pittsburgh, Pennsylvania</p>
-<p style=" font-size:1em; margin-bottom: .5em">September 2018 - April 2019</p>
-<ul>
-    <li>Conducted home, hopsital, nursing facility, and physician’s office visits with SNP SMI members</li>
-    <li>Motivated high-risk nonadherent members to appropriately manage their chronic physical and mental illnesses</li>
-    <li>Completed assessments with members and evaluated responses for potential care gaps</li>
-    <li>Connected members with community programs and in-home caregiving services</li>
-    <li>Coordinated care between physicians, pharmacists, and other professionals by facilitating communication and hosting interagency meetings</li>
-    <li>Used motivational interviewing to improve resiliancy in clients with chronic health issues, grief, domestic/elder abuse, financial/legal issues, addiction, anxiety, and serious mental illness</li>
-    <li>Accessed and recorded care notes and assessments in electronic medical record systems including HealthPlanet, Epic, and Cerner</li>
-</ul>
-
-<b><p style="font-size:1.18em; margin-top:1.2em; margin-bottom:.4em">Allegheny County Department of Human Services</p></b>
-<p style=" font-size:1em; margin-bottom: .5em">SOGIE (Sexual Orientation, Gender Identity and Expression) Intern</p>
-<p style=" font-size:1em; margin-bottom: .5em">Pittsburgh, Pennsylvania</p>
-<p style=" font-size:1em; margin-bottom: .5em">May 2017 - April 2018</p>
-<ul>
-    <li>Created print and online resources for diverse clients and professionals</li>
-    <li>Organized and facilitated client focus groups with LGBTQ foster youth </li>
-    <li>Facilitated collaborative workgroups with professionals from partner organizations</li>
-    <li>Analyzed quality assurance data from employees and clients to identify problem areas</li>
-    <li>Performed community outreach at events like Pittsburgh Pride and Pittsburgh Black Health Fair</li>
-    <li>Completed independent research project, Changing Attitudes of Social Workers Towards LGBTQ Clients</li>
-</ul>
-
-<b><p style="font-size:1.18em; margin-top:1.2em; margin-bottom:.4em">Pitt Lab for Developmental and Motivational Research</p></b>
-<p style=" font-size:1em; margin-bottom: .5em">Research Assistant</p>
-<p style=" font-size:1em; margin-bottom: .5em">Pittsburgh, Pennsylvania</p>
-<p style=" font-size:1em; margin-bottom: .5em">January 2015 - April 2017</p>
-<ul>
-    <li>Conducted and transcribed interviews with children, adolescents, and adults</li>
-    <li>Designed and implemented surveys in Qualtrics that were administered to over 3,000 students</li>
-    <li>Cleaned and standardized survey results in Excel and SPSS with careful attention to detail</li>
-    <li>Wrote technical content for the lab’s newsletters and training guides</li>
-    <li>Provided individual and group training to new employees</li>
-</ul></div></div>
-
-<a id="volunteer"> <div class="box">
-<h3 style="font-size: 1.4em; margin-top: 25px; margin-bottom: 1em">Volunteer Experience</h3></a>
-<b><p style="font-size:1.18em; margin-top:1.2em; margin-bottom:.4em">STP Pittsburgh</p></b>
-<p style=" font-size:1em; margin-bottom: .5em">Co-Chairman</p>
-<p style=" font-size:1em; margin-bottom: .5em">Pittsburgh, Pennsylvania</p>
-<p style=" font-size:1em; margin-bottom: .5em">September 2017 - September 2018</p>
-<ul>
-    <li>Worked directly with community members facing unjust evictions and/or displacement to secure more time in their homes and monetary compensation from landlords</li>
-    <li>Initiated and sustained partnerships with other community groups and coalitions</li>
-    <li>Organized community events including marches, Narcan trainings, study groups, and film screenings</li>
-    <li>Produced and distributed print materials and web graphics to promote campaigns</li>
-</ul>
-
-<b><p style="font-size:1.18em; margin-top:1.2em; margin-bottom:.4em">Thomas Merton Center</p></b>
-<p style=" font-size:1em; margin-bottom: .5em">Journalism Intern</p>
-<p style=" font-size:1em; margin-bottom: .5em">Pittsburgh, Pennsylvania</p>
-<p style=" font-size:1em; margin-bottom: .5em">May 2016 - September 2016</p>
-<ul>
-    <li>Wrote articles for The New People, a Pittsburgh-based social justice newspaper, on topics like racism, gentrification, pollution, and sexuality. </li>
-    <li>Designed creative infographics for the publication’s blog and social media accounts</li>
-    <li>Interviewed local activists, school board members, politicians, and other representatives</li>
-</ul>
-
-<b><p style="font-size:1.18em; margin-top:1.2em; margin-bottom:.4em">Allegheny County Jail Health Justice Project</p></b>
-    <p style=" font-size:1em; margin-bottom: .5em">Volunteer</p>
-    <p style=" font-size:1em; margin-bottom: .5em">Pittsburgh, Pennsylvania</p>
-    <p style=" font-size:1em; margin-bottom: .5em">Februrary 2016 - June 2016</p>
+    <h3 style="font-size: 1.6em; margin-top: 25px; margin-bottom: 1em;">
+      <u><i>Summary of Experience</i></u>
+    </h3>
+    <h3 style="font-size: 1em; margin-top: 0.5em; margin-bottom: 1em;">
+      <b><a href="#education">Education</a> ~
+        <a href="#work">Work Experience</a> ~
+        <a href="#volunteer">Volunteer Experience</a> ~
+        <a href="#organizations">Organizations</a> ~
+        <a href="#distinctions">Distinctions</a></b>
+    </h3>
+    <a id="education">
+      <div class="box">
+        <h3 style="font-size: 1.4em; margin-top: 25px; margin-bottom: 1em;">
+          Education
+        </h3>
+      </div>
+    </a>
+    <div class="container">
+      <p style="font-size: 1.18em; margin-top: 1.2em; margin-bottom: 0.4em;">
+        <b>Master’s in Social Work, 3.9 GPA, University of Pittsburgh</b>
+      </p>
+      <p style="font-size: 1em; margin-bottom: 0.1em;">
+        Certificate in Integrated Behavioral Health
+      </p>
+      <p style="font-size: 1em; margin-bottom: 0.1em;">
+        Certificate in Gender, Sexuality, and Women's Studies, 3.9 GPA
+      </p>
+      <p style="font-size: 1em; margin-bottom: 0.1em;">
+        August 2018 – December 2019
+      </p>
+      <p style="font-size: 1.18em; margin-top: 1.2em; margin-bottom: 0.4em;">
+        <b>Bachelor’s in Social Work, 3.8 GPA, University of Pittsburgh</b>
+      </p>
+      <p style="font-size: 1em; margin-bottom: 0.1em;">
+        Minor in Legal Studies
+      </p>
+      <p style="font-size: 1em; margin-bottom: 0.1em;">
+        Minor in Political Science
+      </p>
+      <p style="font-size: 1em; margin-bottom: 0.1em;">
+        Certificate in Nonprofit Management
+      </p>
+      <p style="font-size: 1em; margin-bottom: 0.1em;">
+        Certificate in Public and Professional Writing
+      </p>
+      <p style="font-size: 1em; margin-bottom: 1.2em;">
+        August 2014 – April 2018
+      </p>
+    </div>
+    <a id="work">
+      <div class="box">
+        <h3 style="font-size: 1.4em; margin-top: 25px; margin-bottom: 1em;">
+          Work Experience
+        </h3>
+      </div>
+    </a>
+    <div class="container">
+      <p style="font-size: 1.18em; margin-top: 1.2em; margin-bottom: 0.4em;">
+        <b>UPMC Western Psychiatric Hospital</b>
+      </p>
+      <p style="font-size: 1em; margin-bottom: 0.5em;">Crisis Clinician</p>
+      <p style="font-size: 1em; margin-bottom: 0.5em;">
+        Pittsburgh, Pennsylvania
+      </p>
+      <p style="font-size: 1em; margin-bottom: 0.5em;">
+        Februrary 2020 - Present
+      </p>
+      <ul>
+        <li>
+          Stabilized consumers & family during crisis situations including
+          active suicidal / homicidal ideation
+        </li>
+        <li>
+          Utilized motivational interviewing, CBT, and DBT techniques to
+          improve resilience in consumers
+        </li>
+        <li>
+          Conducted safety assessments via home/facility visits, phone calls,
+          and telehealth video
+        </li>
+        <li>
+          Completed 302 involuntary commitment petitions and coordinated with
+          police
+        </li>
+        <li>
+          Supervised and evaluated consumers in the onsite Crisis Residential
+          walk-in center
+        </li>
+        <li>
+          Referred consumers to D&amp;A, outpatient, and residential
+          treatments across Allegheny County
+        </li>
+        <li>
+          Completed in-depth documentation including safety assessments in
+          Epic and PsychConsult
+        </li>
+      </ul>
+      <p style="font-size: 1.18em; margin-top: 1.2em; margin-bottom: 0.4em;">
+        <b>UPMC Health Plan</b>
+      </p>
+      <p style="font-size: 1em; margin-bottom: 0.5em;">
+        Special Needs Program SMI Care Management Intern
+      </p>
+      <p style="font-size: 1em; margin-bottom: 0.5em;">
+        Pittsburgh, Pennsylvania
+      </p>
+      <p style="font-size: 1em; margin-bottom: 0.5em;">
+        September 2018 - April 2019
+      </p>
+      <ul>
+        <li>
+          Conducted home, hopsital, nursing facility, and physician’s office
+          visits with SNP SMI members
+        </li>
+        <li>
+          Motivated high-risk nonadherent members to appropriately manage
+          their chronic physical and mental illnesses
+        </li>
+        <li>
+          Completed assessments with members and evaluated responses for
+          potential care gaps
+        </li>
+        <li>
+          Connected members with community programs and in-home caregiving
+          services
+        </li>
+        <li>
+          Coordinated care between physicians, pharmacists, and other
+          professionals by facilitating communication and hosting interagency
+          meetings
+        </li>
+        <li>
+          Used motivational interviewing to improve resiliancy in clients with
+          chronic health issues, grief, domestic/elder abuse, financial/legal
+          issues, addiction, anxiety, and serious mental illness
+        </li>
+        <li>
+          Accessed and recorded care notes and assessments in electronic
+          medical record systems including HealthPlanet, Epic, and Cerner
+        </li>
+      </ul>
+      <p style="font-size: 1.18em; margin-top: 1.2em; margin-bottom: 0.4em;">
+        <b>Allegheny County Department of Human Services</b>
+      </p>
+      <p style="font-size: 1em; margin-bottom: 0.5em;">
+        SOGIE (Sexual Orientation, Gender Identity and Expression) Intern
+      </p>
+      <p style="font-size: 1em; margin-bottom: 0.5em;">
+        Pittsburgh, Pennsylvania
+      </p>
+      <p style="font-size: 1em; margin-bottom: 0.5em;">
+        May 2017 - April 2018
+      </p>
+      <ul>
+        <li>
+          Created print and online resources for diverse clients and
+          professionals
+        </li>
+        <li>
+          Organized and facilitated client focus groups with LGBTQ foster
+          youth
+        </li>
+        <li>
+          Facilitated collaborative workgroups with professionals from partner
+          organizations
+        </li>
+        <li>
+          Analyzed quality assurance data from employees and clients to
+          identify problem areas
+        </li>
+        <li>
+          Performed community outreach at events like Pittsburgh Pride and
+          Pittsburgh Black Health Fair
+        </li>
+        <li>
+          Completed independent research project, Changing Attitudes of Social
+          Workers Towards LGBTQ Clients
+        </li>
+      </ul>
+      <p style="font-size: 1.18em; margin-top: 1.2em; margin-bottom: 0.4em;">
+        <b>Pitt Lab for Developmental and Motivational Research</b>
+      </p>
+      <p style="font-size: 1em; margin-bottom: 0.5em;">Research Assistant</p>
+      <p style="font-size: 1em; margin-bottom: 0.5em;">
+        Pittsburgh, Pennsylvania
+      </p>
+      <p style="font-size: 1em; margin-bottom: 0.5em;">
+        January 2015 - April 2017
+      </p>
+      <ul>
+        <li>
+          Conducted and transcribed interviews with children, adolescents, and
+          adults
+        </li>
+        <li>
+          Designed and implemented surveys in Qualtrics that were administered
+          to over 3,000 students
+        </li>
+        <li>
+          Cleaned and standardized survey results in Excel and SPSS with
+          careful attention to detail
+        </li>
+        <li>
+          Wrote technical content for the lab’s newsletters and training
+          guides
+        </li>
+        <li>Provided individual and group training to new employees</li>
+      </ul>
+    </div>
+    <a id="volunteer">
+      <div class="box">
+        <h3 style="font-size: 1.4em; margin-top: 25px; margin-bottom: 1em;">
+          Volunteer Experience
+        </h3>
+      </div>
+    </a>
+    <p style="font-size: 1.18em; margin-top: 1.2em; margin-bottom: 0.4em;">
+      <b>STP Pittsburgh</b>
+    </p>
+    <p style="font-size: 1em; margin-bottom: 0.5em;">Co-Chairman</p>
+    <p style="font-size: 1em; margin-bottom: 0.5em;">
+      Pittsburgh, Pennsylvania
+    </p>
+    <p style="font-size: 1em; margin-bottom: 0.5em;">
+      September 2017 - September 2018
+    </p>
     <ul>
-        <li>Planned and participated in protests against ACJ's inadequate healthcare programs and abusive practices</li>
-        <li>Advocated for policy changes and lobbied politicians in County Council Meetings</li>
-        <li>Preformed community outreach via phone banking, tabling, and flyering</li>
+      <li>
+        Worked directly with community members facing unjust evictions and/or
+        displacement to secure more time in their homes and monetary
+        compensation from landlords
+      </li>
+      <li>
+        Initiated and sustained partnerships with other community groups and
+        coalitions
+      </li>
+      <li>
+        Organized community events including marches, Narcan trainings, study
+        groups, and film screenings
+      </li>
+      <li>
+        Produced and distributed print materials and web graphics to promote
+        campaigns
+      </li>
     </ul>
-
-<b><p style="font-size:1.18em; margin-top:1.2em; margin-bottom:.4em">Just Harvest</p></b>
-        <p style=" font-size:1em; margin-bottom: .5em">Marketing Project Leader / Greeter</p>
-        <p style=" font-size:1em; margin-bottom: .5em">Pittsburgh, Pennsylvania</p>
-        <p style=" font-size:1em; margin-bottom: .5em">Februrary 2015 - May 2015</p>
-        <ul>
-            <li>Led a small team to launch an awareness campaign about the USDA Summer Food Program</li>
-            <li>Designed and distributed flyers about USDA Summer Food Program in local businesses and on social media</li>
-            <li>Wrote public service announcements and coordinated with local radio stations to have them aired</li>
-            <li>Assisted clients with check-in to the Free Tax Preparation Program</li>
-            <li>Referred eligible clients to SNAP and Medicaid, connected clients with specialists to provide further assistance</li>
-        </ul>
-
-</ul></div>
-
-<a id="organizations"><div class="box">
-     <h3 style="font-size: 1.4em; margin-top: 25px; margin-bottom: 1em">Organizations</h3>
-<div class="container">
-
-<b><p style="font-size:1.18em; margin-top:1.2em; margin-bottom:.4em">Professional Organizations</p></b>
-<ul>
-  <li>Autistic Self Advocacy Network, 2020 - Present</li>
-    <li>National Association of Social Workers, 2018 - Present</li>
-    <li>American Association of Sexuality Educators, Counselors and Therapists, 2018 - Present</li>
-</ul>
-
-<b><p style="font-size:1.18em; margin-top:1.2em; margin-bottom:.4em">Student Organizations</p></b>
-<ul>
-  <li>WPTS Radio, Music Staffmember and DJ, 2019-Present</li>
-    <li>Bachelor in Social Work Club, Secretary, 2017-2018</li>
-    <li>Pittsburgh Student Solidarity Coalition, Member, 2014-2018</li>
-    <li>TRIO Student Support Services (First-Generation Students), Member, 2014-2018</li>
-    <li>Multicultural Student Association, Member, 2017-2018</li>
-    <li>The Pitt Pennysavers, Co-Founder and Vice President, 2014-2016</li>
-    <li>Black Action Society, Blackline Magazine Contributor, 2014-2016</li>
-</ul>
-
-<b><p style="font-size:1.18em; margin-top:1.2em; margin-bottom:.4em">Honorary Societies</p></b>
+    <p style="font-size: 1.18em; margin-top: 1.2em; margin-bottom: 0.4em;">
+      <b>Thomas Merton Center</b>
+    </p>
+    <p style="font-size: 1em; margin-bottom: 0.5em;">Journalism Intern</p>
+    <p style="font-size: 1em; margin-bottom: 0.5em;">
+      Pittsburgh, Pennsylvania
+    </p>
+    <p style="font-size: 1em; margin-bottom: 0.5em;">
+      May 2016 - September 2016
+    </p>
     <ul>
-    <li>Phi Alpha National Honor Society, 2018. Recognizes high academic achievement by students in the social work field.</li>
-    <li>Golden Key International Honor Society, 2018. Recognizes outstanding undergraduate students that finish in the top 15% of their class.</li>
-    <li>University of Pittsburgh OCC Honorary Society, 2016. Recognizes students for their "outside the classroom" contributions to the community.</li>
-</ul>
-
-</div></div>
-
-<a id="distinctions"> <div class="box">
-<h3 style="font-size: 1.4em; margin-top: 25px; margin-bottom: 1em">Distinctions</h3></a>
-<b><p style="font-size:1.18em; margin-top:1.2em; margin-bottom:.4em">Fellowships and Research</p></b>
-<ul>
-    <li><b>Edith M. Baker Integrated Behavioral Health Fellowship, 2018.</b> This competitive fellowship, a part of the Health Resources and Service Administration (HRSA) funded Behavioral Health Workforce Education and Training (BHWET) Program, provides MSW students with advanced training in Integrated Behavioral Health. Students attend workshops hosted by experts in the field, facilitate case study discussions with peers, travel to a regional summit on rural behavioral health, and complete a poster presentation. Fellows also complete a specialized course sequence and graduate the MSW program with an Integrated Healthcare Certificate.</li>
-    <li><b>School of Social Work Honors Directed Study in Research, 2018.</b> This program allows senior year BASW students to complete an independent research project in their field placement. I analyzed a large set of longitudinal survey data from the Allegheny County Department of Human Services and presented my project <i>Changing Attitudes of Social Workers Towards LGBTQ Clients and Colleagues</i> to faculty and professionals working in the field at the School of Social Work Honors Research Reception in April, 2018.</li>
-    <li><b>School of Social Work Summer Research Fellowship, 2016.</b> This program pairs emerging undergraduate scholars with research-engaged faculty members from the School of Social Work. I assisted Dr. Helen Petracchi on her project <i>Oral Histories of Retired African American Educators and Administrators: The Consequences and Costs of Desegregation</i>. I gained experience editing proprosals the IRB and recruiting hard-to-reach populations.</li>
-    <li><b>University of Pittsburgh First Experiences in Research, 2014.</b> This program allows undergraduate students to complete research projects in their freshman year. I was paired with Dr. Ming-Te Wang in Pitt's Center for Developmental and Motivational Research, and conducted a small qualitative study on racial code-switching. I presented my project <i>Striving to Act White: Unconventional Interpretations of the "Acting White" Label</i> at the University of Pittsburgh Undergraduate Research Symposium in March, 2015. After completing the program, Dr. Wang recruited me to work as a paid research assistant in his lab.</li>
-</ul>
-
-<b><p style="font-size:1.18em; margin-top:1.2em; margin-bottom:.4em">Awards</p></b>
-<ul>
-  <li><b>SheInnovates Hackathon, Third Place Prize, 2016.</b> During this 48 hour hackathon I worked in a two-person team to propose and develop a prototype of <i>GlassCeiling</i>, an app designed to teach girls STEM concepts while introducing them to notable women of color in STEM. I designed digital art for the project, including collectible trading cards for women in STEM, as my partner coded the application. Our project was voted into the final round by peers and then awarded third place prize by a panel of judges.</li>
-</ul>
-
-<b><p style="font-size:1.18em; margin-top:1.2em; margin-bottom:.4em">Certifications and Trainings</p></b>
-<ul>
-  <li>Spousal/Partner Abuse Detection and Intervention, 15 hours, Aspira</li>
-  <li>Alcoholism and Chemical Substance Abuse Dependency, 15 hours, Aspira</li>
-  <li>Improving Cultural Competence, 15 hours, Aspira</li>
-  <li>Aging and Long Term Care, 8 hours, Aspira</li>
-<li>Spousal/Partner Abuse Detection and Intervention, 15 hours, Aspira</li>
-  <li>Clinical Homicide and Aggression Management, 8 hours, UPMC</li>
-  <li>Comprehensive Crisis Management, 8 hours, UPMC</li>
-    <li>Certified Basic Life Support (CRP and AED), 8 hours, American Heart Association</li>
-    <li>Sexual Orientation Gender Identity and Expression, 8 hours, Allegheny County Department of Human Services</li>
-    <li>Mandated Reporting / Child Abuse and Neglect</li>
-    <li>PA Act 33 and 34 Child Abuse Clearances</li>
-    <li>FBI Criminal History Clearance</li>
-</ul>
-
-<b><p style="font-size:1.18em; margin-top:1.2em; margin-bottom:.4em">Scholarships</p></b>
-<ul>
-    <li>University of Pittsburgh School of Social Work Academic Scholarship, 2018</li>
-    <li>Dietrich Foundation Scholarship, 2017</li>
-    <li>Mattie B. Addis Social Work Scholarship, 2016</li>
-    <li>NEED Achievement Scholarship, 2014</li>
-    <li>National Association of Negro Business and Professional Women's Clubs Scholarship, 2014</li>
-    <li>Lola G. Duff and William H. Duff Scholarship Fund, 2014</li>
-    <li>Big33 PNC Bank Scholarship, 2014</li>
-    <li>Melville Alexander Eberhart Memorial Fund Scholarship, 2014</li>
-    <li>Oliver L. Johnson and William A. Lester Families Fund Scholarship, 2014</li>
-    <li>Comptaro, Elden, Lewis, and Sparks Scholarship, 2014</li>
-    <li>Continental Building Systems Scholarship, 2014</li>
-    <li>William C. Comptaro Scholarship, 2014</li>
-    <li>Penn Hills PTA Scholarship, 2014</li>
-    <li>Penn Hills Library Assistant Scholarship, 2014</li>
-    <li>Officer Michael J. Crawshaw Memorial Scholarship, 2014</li>
-</ul></div></div>
-
-</div></div>
+      <li>
+        Wrote articles for The New People, a Pittsburgh-based social justice
+        newspaper, on topics like racism, gentrification, pollution, and
+        sexuality.
+      </li>
+      <li>
+        Designed creative infographics for the publication’s blog and social
+        media accounts
+      </li>
+      <li>
+        Interviewed local activists, school board members, politicians, and
+        other representatives
+      </li>
+    </ul>
+    <p style="font-size: 1.18em; margin-top: 1.2em; margin-bottom: 0.4em;">
+      <b>Allegheny County Jail Health Justice Project</b>
+    </p>
+    <p style="font-size: 1em; margin-bottom: 0.5em;">Volunteer</p>
+    <p style="font-size: 1em; margin-bottom: 0.5em;">
+      Pittsburgh, Pennsylvania
+    </p>
+    <p style="font-size: 1em; margin-bottom: 0.5em;">
+      Februrary 2016 - June 2016
+    </p>
+    <ul>
+      <li>
+        Planned and participated in protests against ACJ's inadequate
+        healthcare programs and abusive practices
+      </li>
+      <li>
+        Advocated for policy changes and lobbied politicians in County Council
+        Meetings
+      </li>
+      <li>
+        Preformed community outreach via phone banking, tabling, and flyering
+      </li>
+    </ul>
+    <p style="font-size: 1.18em; margin-top: 1.2em; margin-bottom: 0.4em;">
+      <b>Just Harvest</b>
+    </p>
+    <p style="font-size: 1em; margin-bottom: 0.5em;">
+      Marketing Project Leader / Greeter
+    </p>
+    <p style="font-size: 1em; margin-bottom: 0.5em;">
+      Pittsburgh, Pennsylvania
+    </p>
+    <p style="font-size: 1em; margin-bottom: 0.5em;">
+      Februrary 2015 - May 2015
+    </p>
+    <ul>
+      <li>
+        Led a small team to launch an awareness campaign about the USDA Summer
+        Food Program
+      </li>
+      <li>
+        Designed and distributed flyers about USDA Summer Food Program in
+        local businesses and on social media
+      </li>
+      <li>
+        Wrote public service announcements and coordinated with local radio
+        stations to have them aired
+      </li>
+      <li>
+        Assisted clients with check-in to the Free Tax Preparation Program
+      </li>
+      <li>
+        Referred eligible clients to SNAP and Medicaid, connected clients with
+        specialists to provide further assistance
+      </li>
+    </ul>
+    <a id="organizations">
+      <div class="box">
+        <h3 style="font-size: 1.4em; margin-top: 25px; margin-bottom: 1em;">
+          Organizations
+        </h3>
+      </div>
+    </a>
+    <div class="container">
+      <p style="font-size: 1.18em; margin-top: 1.2em; margin-bottom: 0.4em;">
+        <b>Professional Organizations</b>
+      </p>
+      <ul>
+        <li>Autistic Self Advocacy Network, 2020 - Present</li>
+        <li>National Association of Social Workers, 2018 - Present</li>
+        <li>
+          American Association of Sexuality Educators, Counselors and
+          Therapists, 2018 - Present
+        </li>
+      </ul>
+      <p style="font-size: 1.18em; margin-top: 1.2em; margin-bottom: 0.4em;">
+        <b>Student Organizations</b>
+      </p>
+      <ul>
+        <li>WPTS Radio, Music Staffmember and DJ, 2019-Present</li>
+        <li>Bachelor in Social Work Club, Secretary, 2017-2018</li>
+        <li>Pittsburgh Student Solidarity Coalition, Member, 2014-2018</li>
+        <li>
+          TRIO Student Support Services (First-Generation Students), Member,
+          2014-2018
+        </li>
+        <li>Multicultural Student Association, Member, 2017-2018</li>
+        <li>
+          The Pitt Pennysavers, Co-Founder and Vice President, 2014-2016
+        </li>
+        <li>
+          Black Action Society, Blackline Magazine Contributor, 2014-2016
+        </li>
+      </ul>
+      <p style="font-size: 1.18em; margin-top: 1.2em; margin-bottom: 0.4em;">
+        <b>Honorary Societies</b>
+      </p>
+      <ul>
+        <li>
+          Phi Alpha National Honor Society, 2018. Recognizes high academic
+          achievement by students in the social work field.
+        </li>
+        <li>
+          Golden Key International Honor Society, 2018. Recognizes outstanding
+          undergraduate students that finish in the top 15% of their class.
+        </li>
+        <li>
+          University of Pittsburgh OCC Honorary Society, 2016. Recognizes
+          students for their "outside the classroom" contributions to the
+          community.
+        </li>
+      </ul>
+    </div>
+    <a id="distinctions">
+      <div class="box">
+        <h3 style="font-size: 1.4em; margin-top: 25px; margin-bottom: 1em;">
+          Distinctions
+        </h3>
+      </div>
+    </a>
+    <p style="font-size: 1.18em; margin-top: 1.2em; margin-bottom: 0.4em;">
+      <b>Fellowships and Research</b>
+    </p>
+    <ul>
+      <li>
+        <b>Edith M. Baker Integrated Behavioral Health Fellowship, 2018.</b>
+        This competitive fellowship, a part of the Health Resources and
+        Service Administration (HRSA) funded Behavioral Health Workforce
+        Education and Training (BHWET) Program, provides MSW students with
+        advanced training in Integrated Behavioral Health. Students attend
+        workshops hosted by experts in the field, facilitate case study
+        discussions with peers, travel to a regional summit on rural
+        behavioral health, and complete a poster presentation. Fellows also
+        complete a specialized course sequence and graduate the MSW program
+        with an Integrated Healthcare Certificate.
+      </li>
+      <li>
+        <b>School of Social Work Honors Directed Study in Research, 2018.</b>
+        This program allows senior year BASW students to complete an
+        independent research project in their field placement. I analyzed a
+        large set of longitudinal survey data from the Allegheny County
+        Department of Human Services and presented my project
+        <i>Changing Attitudes of Social Workers Towards LGBTQ Clients and
+          Colleagues</i>
+        to faculty and professionals working in the field at the School of
+        Social Work Honors Research Reception in April, 2018.
+      </li>
+      <li>
+        <b>School of Social Work Summer Research Fellowship, 2016.</b> This
+        program pairs emerging undergraduate scholars with research-engaged
+        faculty members from the School of Social Work. I assisted Dr. Helen
+        Petracchi on her project
+        <i>Oral Histories of Retired African American Educators and
+          Administrators: The Consequences and Costs of Desegregation</i>. I gained experience editing proprosals the
+        IRB and recruiting
+        hard-to-reach populations.
+      </li>
+      <li>
+        <b>University of Pittsburgh First Experiences in Research, 2014.</b>
+        This program allows undergraduate students to complete research
+        projects in their freshman year. I was paired with Dr. Ming-Te Wang in
+        Pitt's Center for Developmental and Motivational Research, and
+        conducted a small qualitative study on racial code-switching. I
+        presented my project
+        <i>Striving to Act White: Unconventional Interpretations of the
+          "Acting White" Label</i>
+        at the University of Pittsburgh Undergraduate Research Symposium in
+        March, 2015. After completing the program, Dr. Wang recruited me to
+        work as a paid research assistant in his lab.
+      </li>
+    </ul>
+    <p style="font-size: 1.18em; margin-top: 1.2em; margin-bottom: 0.4em;">
+      <b>Awards</b>
+    </p>
+    <ul>
+      <li>
+        <b>SheInnovates Hackathon, Third Place Prize, 2016.</b> During this 48
+        hour hackathon I worked in a two-person team to propose and develop a
+        prototype of <i>GlassCeiling</i>, an app designed to teach girls STEM
+        concepts while introducing them to notable women of color in STEM. I
+        designed digital art for the project, including collectible trading
+        cards for women in STEM, as my partner coded the application. Our
+        project was voted into the final round by peers and then awarded third
+        place prize by a panel of judges.
+      </li>
+    </ul>
+    <p style="font-size: 1.18em; margin-top: 1.2em; margin-bottom: 0.4em;">
+      <b>Certifications and Trainings</b>
+    </p>
+    <ul>
+      <li>
+        Spousal/Partner Abuse Detection and Intervention, 15 hours, Aspira
+      </li>
+      <li>
+        Alcoholism and Chemical Substance Abuse Dependency, 15 hours, Aspira
+      </li>
+      <li>Improving Cultural Competence, 15 hours, Aspira</li>
+      <li>Aging and Long Term Care, 8 hours, Aspira</li>
+      <li>
+        Spousal/Partner Abuse Detection and Intervention, 15 hours, Aspira
+      </li>
+      <li>Clinical Homicide and Aggression Management, 8 hours, UPMC</li>
+      <li>Comprehensive Crisis Management, 8 hours, UPMC</li>
+      <li>
+        Certified Basic Life Support (CRP and AED), 8 hours, American Heart
+        Association
+      </li>
+      <li>
+        Sexual Orientation Gender Identity and Expression, 8 hours, Allegheny
+        County Department of Human Services
+      </li>
+      <li>Mandated Reporting / Child Abuse and Neglect</li>
+      <li>PA Act 33 and 34 Child Abuse Clearances</li>
+      <li>FBI Criminal History Clearance</li>
+    </ul>
+    <p style="font-size: 1.18em; margin-top: 1.2em; margin-bottom: 0.4em;">
+      <b>Scholarships</b>
+    </p>
+    <ul>
+      <li>
+        University of Pittsburgh School of Social Work Academic Scholarship,
+        2018
+      </li>
+      <li>Dietrich Foundation Scholarship, 2017</li>
+      <li>Mattie B. Addis Social Work Scholarship, 2016</li>
+      <li>NEED Achievement Scholarship, 2014</li>
+      <li>
+        National Association of Negro Business and Professional Women's Clubs
+        Scholarship, 2014
+      </li>
+      <li>Lola G. Duff and William H. Duff Scholarship Fund, 2014</li>
+      <li>Big33 PNC Bank Scholarship, 2014</li>
+      <li>Melville Alexander Eberhart Memorial Fund Scholarship, 2014</li>
+      <li>
+        Oliver L. Johnson and William A. Lester Families Fund Scholarship,
+        2014
+      </li>
+      <li>Comptaro, Elden, Lewis, and Sparks Scholarship, 2014</li>
+      <li>Continental Building Systems Scholarship, 2014</li>
+      <li>William C. Comptaro Scholarship, 2014</li>
+      <li>Penn Hills PTA Scholarship, 2014</li>
+      <li>Penn Hills Library Assistant Scholarship, 2014</li>
+      <li>Officer Michael J. Crawshaw Memorial Scholarship, 2014</li>
+    </ul>
   </div>
-</div></div></div>
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <a class="navbar-brand" href="index.html" style="font-size:.9em; margin-left: 45%" >Ruby A. V. Walker, 2020</a>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="index.html" style="font-size: 0.9em; margin-left: 45%;">Ruby A. V. Walker, 2020</a>
   </nav>
-</div>
 </body>
+
+</html>
